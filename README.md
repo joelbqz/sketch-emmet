@@ -1,7 +1,7 @@
 # What's Sketch Emmet?
 A plugin that gets Emmet HTML abbreviations snippets to be expanded based on layers list structure and naming.
 
-[Download](https://github.com/Nirvsoner/sketch-emmet/archive/master.zip)
+[Download](https://github.com/joelbqz/sketch-emmet/releases/download/v1.0/EmmetSketch.sketchplugin.zip)
 
 ## How it works?
 You just need to organize and name your groups/layers correctly using Emmet’s abbreviations syntax, and then go to 
