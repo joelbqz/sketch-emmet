@@ -1,5 +1,6 @@
 # What's Sketch Emmet?
 A plugin that gets Emmet HTML abbreviations snippets to be expanded based on layers list structure and naming.
+![Sketch to Emmet HTML](https://joelbqz.github.io/sketch-emmet/img/sketch-to-code.png)
 
 [Download](https://github.com/joelbqz/sketch-emmet/releases/download/v1.0/EmmetSketch.sketchplugin.zip)
 
