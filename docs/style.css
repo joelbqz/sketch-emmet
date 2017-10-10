@@ -1,0 +1,141 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; }
+
+p {
+  color: rgba(0, 0, 0, 0.55);
+  line-height: 26px; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .8rem; }
+
+h1 {
+  font-size: 48px;
+  line-height: 57px; }
+
+h2 {
+  font-size: 30px; }
+
+h1, h2 {
+  font-weight: 300; }
+
+.span-1, .btn {
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+a {
+  color: #F31759;
+  font-weight: 500; }
+
+.btn {
+  border: none;
+  border-radius: 0;
+  padding: 16px 30px;
+  display: flex;
+  align-items: center; }
+  .btn:focus {
+    box-shadow: none;
+    color: white; }
+  .btn:hover {
+    background-color: #f42f6a;
+    border-color: #f42f6a; }
+  .btn i {
+    font-size: 16px; }
+
+.btn-primary {
+  background-color: #F31759; }
+
+.btn-outline-primary {
+  border: 1px white solid;
+  padding: 14px 28px;
+  color: white; }
+
+section {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.site-header {
+  min-height: 477px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(-270deg, #4E169F 0%, #29169F 100%);
+  background-size: cover; }
+  .site-header h1 {
+    padding-bottom: 15px; }
+
+.whats-emmet {
+  background-color: #F7F7F7; }
+  .whats-emmet p {
+    padding-bottom: 7px; }
+  .whats-emmet .row > div:nth-child(1) {
+    display: flex;
+    flex-flow: column;
+    justify-content: center; }
+
+.how-to-use {
+  /* %: */
+  background-image: linear-gradient(-90deg, #1C7DEF 0%, #6029D8 100%); }
+  .how-to-use h3 {
+    /* p: */
+    font-weight: 100;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 32px;
+    padding-bottom: 40px; }
+  .how-to-use .instructions {
+    font-weight: 700;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px; }
+  .how-to-use a {
+    color: white; }
+
+.video h1, .video p {
+  max-width: 530px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.video p {
+  margin-bottom: 1.5rem; }
+
+.video .learn-more {
+  margin-top: 1rem; }
+
+.download {
+  position: relative;
+  color: white;
+  background-color: #1C2029; }
+  .download p {
+    color: rgba(255, 255, 255, 0.54); }
+  .download .note {
+    padding-top: 7px; }
+  .download .help {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center; }
+    .download .help a {
+      color: #F31759; }
+  .download a {
+    color: white; }
+  .download .buttons {
+    padding-top: 10px; }
+
+.site-footer {
+  background-color: #111318;
+  color: rgba(255, 255, 255, 0.54); }
+  .site-footer a {
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */

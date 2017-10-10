@@ -1,0 +1,191 @@
+$color-1: #F31759;
+$color-2: #F31759;
+$color-3: #F7F7F7;
+$color-4: #2E2E2E;
+$color-5: #1F1F1F;
+
+// Typography
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+p {
+	color: rgba(0,0,0,0.55);
+	line-height: 26px;
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .8rem;
+}
+h1 {
+	font-size: 48px;
+	line-height: 57px;
+}
+h2 {
+	font-size: 30px;
+}
+h1,h2 {
+	font-weight: 300;
+}
+
+// Text Helpers
+.span-1 {
+	font-weight: 700;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+// Links and Buttons
+a {
+	color: $color-2;
+	font-weight: 500;
+}
+.btn {
+	border: none;
+	border-radius: 0;
+	padding: 16px 30px;
+	@extend .span-1;
+	display: flex;
+	align-items: center;
+
+	&:focus {
+		box-shadow: none;
+		color: white;
+	}
+
+	&:hover {
+		background-color: lighten($color-1, 5%);
+		border-color: lighten($color-1, 5%);
+	}
+
+	i {
+		font-size: 16px;
+	}
+}
+.btn-primary {
+	background-color: $color-1;
+}
+.btn-outline-primary {
+	border: 1px white solid;
+	padding: 14px 28px;
+	color: white;
+}
+
+// Sections
+section {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.site-header {
+	min-height: 477px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-image: linear-gradient(-270deg, #4E169F 0%, #29169F 100%);
+	background-size: cover;
+
+	h1 {
+		padding-bottom: 15px;
+	}
+}
+
+.whats-emmet {
+	background-color: $color-3;
+	h2 {
+
+	}
+	p {
+		padding-bottom: 7px;
+	}
+
+	.row > div:nth-child(1) {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+
+}
+
+.how-to-use {
+	/* %: */
+background-image: linear-gradient(-90deg, #1C7DEF 0%, #6029D8 100%);
+	h3 {
+		/* p: */
+font-weight: 100;
+font-size: 24px;
+color: #FFFFFF;
+line-height: 32px;
+padding-bottom: 40px;
+	}
+	.instructions {
+		font-weight: 700;
+		font-size: 15px;
+		color: #FFFFFF;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		border-bottom: 2px solid white;
+		padding-bottom: 5px;
+	}
+
+	a{
+		color: white;
+	}
+
+}
+
+.video {
+	h1, p {
+		max-width: 530px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	p {
+		margin-bottom: 1.5rem;
+	}
+	.learn-more {
+		margin-top: 1rem;
+	}
+}
+
+.download {
+	position: relative;
+	color: white;
+	background-color: #1C2029;
+	p {
+		color: rgba(255,255,255,0.54);
+	}
+
+	.note {
+		padding-top: 7px;
+	}
+
+	.help {
+		position: absolute;
+		bottom: 0;
+		margin: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		a {
+			color: $color-1;
+		}
+	}
+	a {
+		color: white;
+	}
+	.buttons {
+		padding-top: 10px;
+	}
+}
+
+.site-footer {
+	background-color: #111318;
+	color: rgba(255,255,255,0.54);
+	a {
+		color: white;
+	}
+}
