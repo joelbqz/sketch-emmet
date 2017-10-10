@@ -1,0 +1,17 @@
+{
+    "name" : "Sketch Emmet",
+    "identifier" : "sketch.emmet",
+    "version" : "1.0",
+    "description" : "Get HTML snippets based on Emmet abbreviations",
+    "authorEmail" : "nirvsoner@gmail.com",
+    "author" : "Joel Bohorquez",
+
+    "commands" : [
+    {
+      "script" : "sketch-emmet.js",
+      "handler" : "onRun",
+      "name" : "Get Emmet Snippet",
+      "identifier" : "emmet.snippet.get"
+    }
+  ],
+}
