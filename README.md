@@ -5,7 +5,7 @@ A plugin that gets Emmet HTML abbreviations snippets to be expanded based on lay
 [Download](https://github.com/joelbqz/sketch-emmet/releases/download/v1.0/EmmetSketch.sketchplugin.zip)
 
 ## Install with Sketch Runner
-With Sketch Runner, just go to the `install` command and search for `[plugin name]`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
+With Sketch Runner, just go to the `install` command and search for `Sketch Emmet`. Runner allows you to manage plugins and do much more to speed up your workflow in Sketch. [Download Runner here](http://www.sketchrunner.com).
 
 ![Sketch Runner screenshot](http://...?raw=true)
 
